@@ -1,0 +1,320 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Squada One', cursive;
+}
+
+b {
+  color: #e31b6d;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Header*/
+.header {
+  z-index: 100;
+  width: 100%;
+  height: 15%;
+  color: #0b0b5b;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 40%;
+  margin: 3% auto;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-right: 20px;
+  user-select: none;
+  display: inline;
+  font-size: 2.5vw;
+  color: #e31b6d;
+}
+
+.nav {
+  display: inline;
+  font-size: 1.8vw;
+}
+
+.nav_link {
+  list-style: none;
+  margin-right: 50px;
+  position: relative;
+  float: left;
+  color: #0b0b5b;
+  text-decoration: none;
+  user-select: none;
+  transition: color 0.2s linear;
+}
+
+.nav_link:hover{
+    color:#e31b6d;
+}
+
+/*Maincomtainer*/
+.maincontainer {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+/*Intro*/
+.welcome {
+  height: 80vh;
+}
+
+.text {
+  width: 50%;
+  display: inline-block;
+  clear:left;
+}
+
+.text p {
+  color: #0b0b5b;
+  font-size: 5vw;
+  margin: 0;
+}
+
+#text1 {
+  font-size: 14vw;
+}
+
+.welcome b {
+  color: #e31b6d;
+}
+
+.welcome_picture {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+
+.welcome_picture img {
+  width: 100%;
+  height: 100%;
+}
+
+/*About*/
+.section {
+  height: 100vh;
+}
+
+.section_inner {
+  height: 80vh;
+  margin: 10vh 0;
+}
+
+.title {
+  font-size: 2.9vw;
+  text-align: center;
+  color: #e31b6d;
+}
+
+.info {
+  height: 72vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_text {
+  width: 25vw;
+  float: left;
+  color: #0b0b5b;
+  font-size: 2vw;
+  margin: 8vh 0;
+  text-align: center;
+}
+
+.titletext {
+  color: #e31b6d;
+  text-align: center;
+}
+
+.owner_photo {
+  width: 25vw;
+  float: left;
+  margin: 8vh 2vw;
+}
+
+.owner_photo img {
+  width: 25vw;
+  border-radius: 50vh;
+}
+
+.details {
+  width: 25vw;
+  float: right;
+  color: #0b0b5b;
+  font-size: 2vw;
+  margin: 8vh 0;
+}
+
+/*Education*/
+.edu1, .edu2 {
+  width: 39.5vw;
+  height: 60vh;
+  float: left;
+  margin: 5vh 0;
+}
+
+.edu1 {
+  border-right: 2px solid #0b0b5b;
+}
+
+.edu2 {
+  border-left: 2px solid #0b0b5b;
+}
+
+.box {
+  height: 30vh;
+}
+
+.edu_text1 {
+  width: 30vw;
+  height: 30vh;
+  float: left;
+}
+
+.edu_text2 {
+  width: 30vw;
+  height: 30vh;
+  float: right;
+}
+
+.line1 {
+  height: 30vh;
+  width: 8vw;
+  float: right;
+}
+
+.line2 {
+  height: 30vh;
+  width: 8vw;
+  float: left;
+}
+
+.box4 {
+  height: 15vh;
+  width: 8vw;
+  text-align: center;
+  font-size: 1.6vw;
+}
+
+.box3 {
+  border-bottom: 2px solid black;
+  height: 15vh;
+  width: 8vw;
+}
+
+.img_edu img {
+  width: 7vw;
+  margin: 8vh 0;
+  float: left;
+}
+
+.text_edu {
+  float: right;
+  width: 20vw;
+  height: 30vh;
+  font-size: 1.5vw;
+  color: #0b0b5b;
+  text-align: center;
+}
+
+/*Projects*/
+.project {
+  width: 25vw;
+  height: 50vh;
+  margin: auto 0;
+  border: 4px solid #0b0b5b;
+  border-radius: 7%;
+}
+
+.project_inner {
+  width: 23vw;
+  height: 40vh;
+  padding:1vw;
+  margin: 4vh 0;
+}
+
+.img_project {
+  width: 15vw;
+  height: 25vh;
+  margin: auto;
+}
+
+.img_project img {
+  height: 25vh;
+  display: block;
+  margin: auto;
+}
+
+.text_project {
+  width: 20vw;
+  height: 15vh;
+  margin: auto;
+  font-size: 1.5vw;
+  color: #0b0b5b;
+  text-align: center;
+}
+
+/*Skills*/
+.skill_box {
+  height: 60vh;
+  margin:auto;
+}
+
+.skill_title {
+  color: #0b0b5b;
+}
+
+.skill_box_inner {
+  height: 20vh;
+}
+
+table {
+  border:none;
+  border-spacing: 2em;
+}
+
+/*Contact*/
+.contact_section {
+  height: 80vh;
+}
+
+.contact_section_inner {
+  height: 53vh;
+  width: 20vw;
+  margin:5vh auto;
+  font-size: 1.5vw;
+  border: 2px solid #0b0b5b;
+  border-radius: 3%;
+  color: #0b0b5b;
+  padding: 1vw;
+}
+
+#subject {
+  height:20vh;
+  width: 18vw;
+}
+
+#submit {
+  background-color: #e31b6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input {
+  font-size: 1.5vw;
+}
